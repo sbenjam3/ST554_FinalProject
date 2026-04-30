@@ -14,5 +14,5 @@ for x in range(20):
     #set index to false to avoid writing out indicies to csv
     sample_df.to_csv(f'streaming_files/batch_{x}', index=False)
     #pause for 10 seconds in between writing new files
-    sleep(10)
+    sleep(20)
     
